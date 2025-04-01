@@ -1,0 +1,12 @@
+BDEPEND=dev-build/meson virtual/pkgconfig
+DEFINED_PHASES=-
+DEPEND=dev-vcs/git net-misc/curl media-libs/fontconfig dev-libs/json-glib ~dev-cpp/gtkmm-3.24.9
+DESCRIPTION=View and install fonts on a Linux system and install fonts from Google Fonts.
+EAPI=8
+HOMEPAGE=https://github.com/chocolateimage/fontviewer
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-vcs/git net-misc/curl media-libs/fontconfig dev-libs/json-glib ~dev-cpp/gtkmm-3.24.9
+SLOT=0
+SRC_URI=https://github.com/chocolateimage/fontviewer/archive/refs/tags/v1.1.0.tar.gz
+_md5_=b1b9aff4ac65ff346d7bc10e2e82fb40
